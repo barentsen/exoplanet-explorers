@@ -5,7 +5,7 @@ import json
 import pandas as pd
 from tqdm import tqdm
 
-INPUT_FN = '../data/classifications-v20170404.csv'  # Standard 'classification export' file
+INPUT_FN = '../data/classifications-v20170405.csv'  # Standard 'classification export' file
 OUTPUT_FN = '../output/classifications-easy-format.csv'
 
 

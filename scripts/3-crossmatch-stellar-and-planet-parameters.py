@@ -34,4 +34,4 @@ if __name__ == '__main__':
     summary_with_parameters['in_hz'] = ((a > (0.75*np.sqrt(luminosity))) & (a < (1.77*np.sqrt(luminosity))))
 
     # Write results to table
-    summary_with_parameters.to_csv(OUTPUT_FN)
+    summary_with_parameters.to_csv(OUTPUT_FN, index=False)
